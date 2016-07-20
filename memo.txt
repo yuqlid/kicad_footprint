@@ -1,0 +1,6 @@
+kicadに打ち込むオプション
+allow_pretty_writing_to_this_dir=${HOME}\pretty\{フォルダ名}
+Choke_SMD.pretty
+Connectors_JST.pretty
+Diodes_SMD.pretty
+SMD_Packages.pretty
