@@ -5,3 +5,6 @@
   http://kicad.jp/translate/pcbnew.pdf  
   http://kicad.jp/translate/cvpcb.pdf
   
+#注意
+  何度も確認はしていますが，コネクタのピン番号はよく確認をお願いします．  
+  間違いを見つけましたらプルリクエストよろしくお願いします．
