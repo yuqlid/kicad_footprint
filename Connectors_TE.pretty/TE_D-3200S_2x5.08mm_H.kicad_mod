@@ -1,4 +1,4 @@
-(module TE_D-3200S_2x5.08mm_H (layer F.Cu) (tedit 5795D927)
+(module TE_D-3200S_2x5.08mm_H (layer F.Cu) (tedit 57E35F85)
   (tags "te dynamic 3200 connector ")
   (fp_text reference REF** (at -5 -2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -17,4 +17,9 @@
   (pad 2 thru_hole circle (at 5.08 0) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
   (pad "" thru_hole circle (at -3.81 7.62) (size 4 4) (drill 3) (layers *.Cu *.Mask F.SilkS))
   (pad "" thru_hole circle (at 8.89 7.62) (size 4 4) (drill 3) (layers *.Cu *.Mask F.SilkS))
+  (model ${HOME}/pretty/Connectors_TE.3dshapes/TE_D-3200S_2x5.08mm_H.step
+    (at (xyz 0.09842519685039371 -0.187007874015748 0.2362204724409449))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 180))
+  )
 )
