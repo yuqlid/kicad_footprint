@@ -1,4 +1,4 @@
-(module R_2512_Bourns (layer F.Cu) (tedit 57DE79A8)
+(module R_2512_Bourns (layer F.Cu) (tedit 57EA224D)
   (descr "Resistor SMD 2512, reflow soldering, Vishay (see dcrcw.pdf)")
   (tags "resistor 2512")
   (attr smd)
@@ -14,11 +14,11 @@
   (fp_line (start 3.9 -1.95) (end 3.9 1.95) (layer F.CrtYd) (width 0.05))
   (fp_line (start 2.6 1.825) (end -2.6 1.825) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.6 -1.825) (end 2.6 -1.825) (layer F.SilkS) (width 0.15))
-  (pad 1 smd rect (at -2.6 0) (size 1.8 3.4) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.6 0) (size 1.8 3.4) (layers F.Cu F.Paste F.Mask))
-  (model Resistors_SMD.3dshapes/R_2512.wrl
-    (at (xyz 0 0 0))
+  (pad 1 smd rect (at -2.6 0) (size 1.8 3.4) (layers F.Cu F.Paste F.Mask))
+  (model ${HOME}/pretty/Resistors_SMD_Shunt.3dshapes/CSS2H-2512.stp
+    (at (xyz -0.1230314960629921 -0.05915354330708662 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
