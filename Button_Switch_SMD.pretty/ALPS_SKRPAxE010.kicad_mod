@@ -1,4 +1,4 @@
-(module ALPS_SKRPAxE010 (layer F.Cu) (tedit 58FAC631)
+(module ALPS_SKRPAxE010 (layer F.Cu) (tedit 5B7A2EEB)
   (descr http://www.alps.com/prod/info/J/HTML/Tact/SurfaceMount/SKRP/SKRP_list.html)
   (tags "Push button ")
   (fp_text reference REF** (at 0 -2.35) (layer F.SilkS)
@@ -39,7 +39,7 @@
   (pad 3 smd rect (at -2.075 1.075) (size 1.05 0.65) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.075 -1.075) (size 1.05 0.65) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -2.075 -1.075) (size 1.05 0.65) (layers F.Cu F.Paste F.Mask))
-  (model ${HOME}/pretty/SMD_Packages.3dshapes/SKRPAC.step
+  (model ${KICAD_HOME}/my_kicad-footprints/Button_Switch_SMD.3dshapes/SKRPAC.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
