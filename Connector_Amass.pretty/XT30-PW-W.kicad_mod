@@ -1,4 +1,4 @@
-(module XT30-PW-W (layer F.Cu) (tedit 5B87FB18)
+(module XT30-PW-W (layer F.Cu) (tedit 5B921884)
   (fp_text reference REF** (at -1.25 0 270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -30,8 +30,8 @@
   (fp_line (start -3.05 4.5) (end -9.05 4.5) (layer F.SilkS) (width 0.15))
   (fp_line (start -9.05 0) (end -9.05 4.5) (layer F.SilkS) (width 0.15))
   (fp_line (start -9.05 3.5) (end -3.05 3.5) (layer F.SilkS) (width 0.15))
-  (pad + thru_hole circle (at 5 -2.5) (size 2.54 2.54) (drill 1.7) (layers *.Cu *.Mask))
-  (pad - thru_hole circle (at 5 2.5) (size 2.54 2.54) (drill 1.7) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 5 -2.5) (size 2.54 2.54) (drill 1.7) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 5 2.5) (size 2.54 2.54) (drill 1.7) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 0 -5.5) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 0 5.5) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (model ${KICAD_HOME}/my_kicad-footprints/Connector_Amass.3dshapes/XT30PW-W.step
