@@ -1,0 +1,88 @@
+(footprint "Castellated_Hole_Spring_Contact"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Castellated Hole Spring Contact")
+	(tags "Castellated Hole Spring Contact")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e01f7508-1c39-4ed3-a5f4-d5242ec9fbec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Castellated_Hole_Spring_Contact"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "77e7875a-4703-4d3c-b039-6def6298423e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7441e3dd-c97a-4b3d-81bb-b853ff065fe5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "288329b9-8fe7-48b7-b58e-39235227e741")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c1c883a3-0947-404f-8bb2-a3ff838a582c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at -0.5 0)
+		(size 1 0.5)
+		(drill oval 1.5 0.5)
+		(layers "*.Cu" "*.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "1b555af1-d10a-4fb2-b691-86795d91418c")
+	)
+	(pad "1" thru_hole circle
+		(at -3.3 0)
+		(size 0.9 0.9)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aa05dc84-5be4-47eb-9860-e76306a5e993")
+	)
+	(embedded_fonts no)
+)

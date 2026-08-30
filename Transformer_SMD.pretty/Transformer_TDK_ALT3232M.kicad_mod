@@ -1,0 +1,270 @@
+(footprint "Transformer_TDK_ALT3232M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)")
+	(tags "pulse pa0926nl")
+	(property "Reference" "REF**"
+		(at 0 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "0360df35-23f9-40f1-b05b-bb184502b831")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Transformer_TDK_ALT3232M"
+		(at 0 2.6 0)
+		(layer "F.Fab")
+		(uuid "d01cf545-2e9c-458e-a82e-34feddf54062")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f96342a5-2120-4d3e-8e63-39521c11e360")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "610f193e-ac8e-4b95-8329-488f80f2ca6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e6b7b86-ee93-4b2a-bfc6-82c69d55adc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.71 -0.99)
+		(end -1.71 0.34)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10234d31-f8b5-44e0-8fd7-c9bdb8447299")
+	)
+	(fp_line
+		(start -1.71 1.71)
+		(end 1.71 1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94aa9265-51c4-4844-85fe-daf91fc22a2d")
+	)
+	(fp_line
+		(start 1.71 -1.71)
+		(end -1.71 -1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe375a1d-c2ab-4a93-91aa-1fc48827448a")
+	)
+	(fp_line
+		(start 1.71 -0.34)
+		(end 1.71 0.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6112f66b-8de6-485e-951e-f40d57387ada")
+	)
+	(fp_poly
+		(pts
+			(xy -1.4 -1.95) (xy -1.55 -2.15) (xy -1.25 -2.15) (xy -1.4 -1.95)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "f86df053-b446-4934-8177-a302c4f2194c")
+	)
+	(fp_line
+		(start -2.15 -1.85)
+		(end -2.15 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffe1a886-f869-4f23-86ad-2b5df7a2fe65")
+	)
+	(fp_line
+		(start -2.15 -1.85)
+		(end 2.15 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "813b4aed-99ce-41fd-a2a5-c84d3b955268")
+	)
+	(fp_line
+		(start -2.15 1.85)
+		(end 2.15 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bbc58432-bc58-4f9f-bbdf-6f71fc6f05e3")
+	)
+	(fp_line
+		(start 2.15 -1.85)
+		(end 2.15 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eecd7544-1760-4b14-8f24-e29974e6d15d")
+	)
+	(fp_line
+		(start -1.6 1.6)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04b18d8b-0dc8-406a-bfc6-77938cd2acaf")
+	)
+	(fp_line
+		(start -1.6 1.6)
+		(end 1.6 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d50a6fa-6feb-41e0-9b9d-5bf9ca91637f")
+	)
+	(fp_line
+		(start -0.8 -1.6)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "42688fb6-5605-4b3a-95ec-f2fac03f59ad")
+	)
+	(fp_line
+		(start -0.8 -1.6)
+		(end 1.6 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "232429a0-6c7a-411c-9222-256b51fa5a8e")
+	)
+	(fp_line
+		(start 1.6 -1.6)
+		(end 1.6 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44a0cfa9-9685-4dd5-937d-a1eedcd468d1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "422e2e26-199c-44a8-871e-0a464135389e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.4 1.35)
+		(size 1 0.41)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "32910403-548c-4f77-b1e3-b7be7717a911")
+	)
+	(pad "2" smd rect
+		(at -1.4 0.7)
+		(size 1 0.41)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "76df4f2c-8763-425f-9a48-0ae1a589b07a")
+	)
+	(pad "3" smd rect
+		(at -1.4 -1.35)
+		(size 1 0.41)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6f536ce8-0edc-4256-b600-bcc216bdc681")
+	)
+	(pad "4" smd rect
+		(at 1.4 -1.35)
+		(size 1 0.41)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a86952cd-8065-4e1e-bf90-a23e74c43c93")
+	)
+	(pad "5" smd rect
+		(at 1.4 -0.7)
+		(size 1 0.41)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8d61ffda-02f2-4242-91f8-56cacca72560")
+	)
+	(pad "6" smd rect
+		(at 1.4 1.35)
+		(size 1 0.41)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "faca5f82-9a62-4c6e-b7bf-219f74dad29d")
+	)
+	(model "D:/KiCad/my_kicad-footprints/Transformer_SMD.3dshpaes/alt3232m-151.step"
+		(offset
+			(xyz -12.875 -11.625 1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 0)
+		)
+	)
+)

@@ -1,0 +1,256 @@
+(footprint "L_CommonModeChoke_TDK_MCZ1210AH"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "MCZ1210AH common-mode filter 4 pin")
+	(property "Reference" "REF**"
+		(at 0 -1.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f94cbd96-a9c0-4bdb-8c4a-a11589a8f51d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_CommonModeChoke_TDK_MCZ1210AH"
+		(at 0 1.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7a2a2d92-b650-4a4e-bb04-7509621d8f42")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ec45d26-2eba-4793-b6c5-02f778fce7f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f37b1457-4d2c-4831-b7a6-ee13474ef361")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd3be9e1-1525-461a-8d43-1d98c9285b00")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.61)
+		(end 0.625 -0.61)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "565d9f41-5c12-489a-ae50-3b6c08574101")
+	)
+	(fp_line
+		(start -0.625 0.61)
+		(end 0.625 0.61)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "53014fdb-8590-4346-821b-80ab8d03cea8")
+	)
+	(fp_line
+		(start -1.1 -0.7)
+		(end -1.1 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "138e7cea-811d-450b-b98d-144c17f44b4a")
+	)
+	(fp_line
+		(start 1.1 -0.7)
+		(end -1.1 -0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7cdb317a-1bb5-43eb-9678-23da81ff646f")
+	)
+	(fp_line
+		(start 1.1 -0.7)
+		(end 1.1 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a1cf455-d810-48d7-98ac-8f43f941fcb3")
+	)
+	(fp_line
+		(start 1.1 0.7)
+		(end -1.1 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "28aed9e6-f311-4cb1-99e4-5edb58e20b82")
+	)
+	(fp_line
+		(start -1.25 0)
+		(end -1.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2eb67cea-86a7-4ba9-845e-ac46b056b4da")
+	)
+	(fp_line
+		(start -0.625 0.5)
+		(end -0.625 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ec5e7388-fb22-4c64-b546-d1aa9eaf0b91")
+	)
+	(fp_line
+		(start -0.375 -0.5)
+		(end -0.625 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a9252436-1a57-48b9-9229-a5859f70e68c")
+	)
+	(fp_line
+		(start 0.625 -0.5)
+		(end -0.375 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c5c74cea-d7c8-41ff-b552-65e4d861822f")
+	)
+	(fp_line
+		(start 0.625 -0.5)
+		(end 0.625 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "eb121882-9135-4974-811e-8f4a33b8aed7")
+	)
+	(fp_line
+		(start 0.625 0.5)
+		(end -0.625 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a154ac35-c354-40df-a422-2a5fd28478c4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3902aba9-b7e3-4d70-8006-1bdbc9ee3cdc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.6 -0.275)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "fe7e5bd6-da1f-4047-9615-a5888a0f4110")
+	)
+	(pad "2" smd roundrect
+		(at -0.6 0.275)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "67b7ec1b-4e85-40c8-acab-058fa82aec18")
+	)
+	(pad "3" smd roundrect
+		(at 0.6 0.275)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "2a81afec-ee42-475c-8f48-c51ec26d0418")
+	)
+	(pad "4" smd roundrect
+		(at 0.6 -0.275)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9326dabf-6c3a-4977-be81-31e3d5408095")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonModeChoke_TDK_ACM2520-2P.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "D:/KiCad/my_kicad-footprints/Inductors_SMD.3dshapes/MCZ1210AH_CP.step"
+		(offset
+			(xyz 0 0 0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
